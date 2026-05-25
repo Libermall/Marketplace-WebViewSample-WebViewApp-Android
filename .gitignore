@@ -1,0 +1,20 @@
+# Android build artefacts — NEVER commit
+*.apk
+*.aab
+*.jks
+*.keystore
+key.jks
+password.txt
+local.properties
+*.iml
+
+# Build output
+build/
+.gradle/
+captures/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
